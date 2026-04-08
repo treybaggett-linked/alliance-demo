@@ -1,0 +1,36 @@
+---
+import '../styles/global.css';
+const { firm } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" style={`--primary: ${firm.primaryColor}; --primary-dark: color-mix(in srgb, ${firm.primaryColor} 80%, black);`}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{firm.firmName}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/global.css" />
+  </head>
+  <body>
+
+    <nav>
+      <a href="/" class="nav-logo">{firm.firmName}</a>
+      <ul class="nav-links">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <slot />
+
+    <footer>
+      <p class="footer-firm">{firm.firmName}</p>
+      <p>{firm.contact.email} &nbsp;·&nbsp; {firm.contact.phone}</p>
+      <p class="footer-alliance">Part of the Linked Alliance Network</p>
+    </footer>
+
+  </body>
+</html>

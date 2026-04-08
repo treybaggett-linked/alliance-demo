@@ -1,0 +1,32 @@
+{
+  "firmName": "Linked Accounting",
+  "tagline": "Clarity in every number.",
+  "primaryColor": "#2D7A4F",
+  "hero": {
+    "headline": "Accounting that works as hard as you do.",
+    "subheadline": "We help small businesses and individuals navigate tax, bookkeeping, and financial planning with confidence.",
+    "ctaText": "Schedule a Free Consultation"
+  },
+  "services": [
+    {
+      "title": "Tax Planning",
+      "description": "Strategic tax preparation and planning to minimize your liability and keep you compliant year-round."
+    },
+    {
+      "title": "Bookkeeping",
+      "description": "Accurate, monthly bookkeeping so your books are always clean and your decisions are always informed."
+    },
+    {
+      "title": "Financial Advisory",
+      "description": "Forward-looking financial guidance tailored to your business goals and growth stage."
+    },
+    {
+        "title": "Payroll Services",
+        "description": "Reliable, on-time payroll processing so your team gets paid correctly every time."
+    }
+  ],
+  "contact": {
+    "email": "hello@linkedaccounting.com",
+    "phone": "(801) 555-0142"
+  }
+}
