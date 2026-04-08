@@ -1,14 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
-const firmId = import.meta.env.FIRM_ID ?? 'linked-accounting';
-
-let firm;
-if (firmId === 'fj-associates') {
-  firm = (await import('../config/fj-associates.json')).default;
-} else {
-  firm = (await import('../config/linked-accounting.json')).default;
-}
+import firm from '../config/linked-accounting.json';
 ---
 
 <BaseLayout firm={firm}>
