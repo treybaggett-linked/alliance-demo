@@ -1,0 +1,28 @@
+{
+  "firmName": "FJ & Associates",
+  "tagline": "Trusted advisors for every stage of your business.",
+  "primaryColor": "#2D6A4F",
+  "hero": {
+    "headline": "Financial clarity for businesses that mean business.",
+    "subheadline": "FJ & Associates delivers expert accounting, tax strategy, and financial planning for growing businesses and their owners.",
+    "ctaText": "Book a Free Discovery Call"
+  },
+  "services": [
+    {
+      "title": "Tax Strategy",
+      "description": "Proactive tax planning that keeps more money in your business and ensures full compliance year-round."
+    },
+    {
+      "title": "Accounting & Reporting",
+      "description": "Clean, accurate financial statements delivered monthly so you always know where you stand."
+    },
+    {
+      "title": "Business Advisory",
+      "description": "Strategic guidance to help you make confident decisions at every stage of your business growth."
+    }
+  ],
+  "contact": {
+    "email": "hello@fjassociates.com",
+    "phone": "(801) 555-0198"
+  }
+}

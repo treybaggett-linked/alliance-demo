@@ -154,3 +154,12 @@ footer .footer-alliance {
   font-size: 0.8rem;
   opacity: 0.5;
 }
+/* Alliance Bar */
+.alliance-bar {
+  background: #1a1a2e;
+  color: rgba(255,255,255,0.75);
+  text-align: center;
+  padding: 0.6rem 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+}

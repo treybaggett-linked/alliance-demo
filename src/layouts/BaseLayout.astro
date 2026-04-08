@@ -11,9 +11,12 @@ const { firm } = Astro.props;
     <title>{firm.firmName}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/global.css" />
   </head>
   <body>
+
+    <div class="alliance-bar">
+      Part of the Linked Alliance Network — Powered by one shared platform.
+    </div>
 
     <nav>
       <a href="/" class="nav-logo">{firm.firmName}</a>
