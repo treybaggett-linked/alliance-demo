@@ -3,9 +3,17 @@
   "tagline": "Clarity in every number.",
   "primaryColor": "#00bfff",
   "hero": {
+    "eyebrow": "CPA FIRM",
     "headline": "Accounting that works as hard as you do.",
     "subheadline": "We help small businesses and individuals navigate tax, bookkeeping, and financial planning with confidence.",
     "ctaText": "Schedule a Free Consultation"
+  },
+  "whatWeDo": {
+    "eyebrow": "WHAT WE DO",
+    "headline": "We handle the numbers so you can focus on growth.",
+    "body": "Linked Accounting provides tax, bookkeeping, and financial advisory services designed for small business owners and individuals who want clarity and confidence in their finances.",
+    "ctaText": "Learn More",
+    "image": "/Linked_Accounting_logo.png"
   },
   "services": [
     {
@@ -27,6 +35,7 @@
   ],
   "contact": {
     "email": "hello@linkedaccounting.com",
-    "phone": "(801) 555-0142"
+    "phone": "(801) 555-0142",
+    "address": "Salt Lake City, UT"
   }
 }

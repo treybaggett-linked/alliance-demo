@@ -14,7 +14,7 @@ const { firm } = Astro.props;
   </head>
   <body>
 
-    <div class="alliance-bar">
+    <div class="announcement-bar">
       Part of the Linked Alliance Network — Powered by one shared platform.
     </div>
 
@@ -29,11 +29,18 @@ const { firm } = Astro.props;
 
     <slot />
 
-    <footer>
-      <p class="footer-firm">{firm.firmName}</p>
+   <footer>
+  <div class="footer-inner">
+    <div class="footer-left">
+      <p class="footer-firm-name">{firm.firmName}</p>
       <p>{firm.contact.email} &nbsp;·&nbsp; {firm.contact.phone}</p>
-      <p class="footer-alliance">Part of the Linked Alliance Network</p>
-    </footer>
+      <p>Part of the Linked Alliance Network</p>
+    </div>
+    <div class="footer-logo-wrap">
+      <img src="/Linked-Accounting-Alliance-Logo-1.png" alt="Linked Alliance Network" />
+    </div>
+  </div>
+</footer>
 
   </body>
 </html>

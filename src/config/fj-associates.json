@@ -1,28 +1,49 @@
 {
-  "firmName": "FJ & Associates",
-  "tagline": "Trusted advisors for every stage of your business.",
-  "primaryColor": "#2D6A4F",
+  "firmName": "FJ & Associates, PLLC",
+  "tagline": "A Certified Public Accounting Firm",
+  "primaryColor": "#1B3A8C",
+  "primaryDark": "#122970",
+  "heroImage": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=1600&q=80",
+  "logoMain": "/main_logo_fj.webp",
+  "logoSmall": "/small_logo_fj.jpeg",
+  "announcement": {
+    "text": "Tax season is here — let us handle the hard part.",
+    "cta": "Get Started"
+  },
   "hero": {
-    "headline": "Financial clarity for businesses that mean business.",
-    "subheadline": "FJ & Associates delivers expert accounting, tax strategy, and financial planning for growing businesses and their owners.",
-    "ctaText": "Book a Free Discovery Call"
+    "eyebrow": "Welcome to FJ & Associates",
+    "headline": "Expert Advice. Simplified Accounting.",
+    "subheadline": "FJ & Associates delivers expert tax planning, accounting, and business advisory services for individuals and businesses in the Kaysville area and beyond.",
+    "ctaText": "Learn More"
+  },
+  "whatWeDo": {
+    "eyebrow": "What We Do",
+    "headline": "Efficient Tax and Accounting Solutions Tailored to You",
+    "body": "We are more than a tax and accounting firm — we are your financial partners in success. Our team provides comprehensive accounting services including tax preparation, financial statements, business consulting, payroll, and audit services.",
+    "ctaText": "Our Services",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=900&q=80"
   },
   "services": [
     {
-      "title": "Tax Strategy",
-      "description": "Proactive tax planning that keeps more money in your business and ensures full compliance year-round."
+      "title": "Accounting Simplified",
+      "description": "Monthly and quarterly financial statements, individual and business budgeting, and bookkeeping tailored to your needs."
     },
     {
-      "title": "Accounting & Reporting",
-      "description": "Clean, accurate financial statements delivered monthly so you always know where you stand."
+      "title": "Tax & Business Planning",
+      "description": "Comprehensive tax preparation for individuals, partnerships, corporations, LLCs, trusts, and non-profits."
     },
     {
-      "title": "Business Advisory",
-      "description": "Strategic guidance to help you make confident decisions at every stage of your business growth."
+      "title": "Audit & Attest Services",
+      "description": "Professional audit, review, and compilation services that meet regulatory requirements and build stakeholder confidence."
+    },
+    {
+      "title": "Payroll Services",
+      "description": "Accurate payroll processing, payroll tax filings, W-2s, and 1099s so your team gets paid right every time."
     }
   ],
   "contact": {
     "email": "hello@fjassociates.com",
-    "phone": "(801) 555-0198"
+    "phone": "(801) 927-1337",
+    "address": "Kaysville, UT"
   }
 }

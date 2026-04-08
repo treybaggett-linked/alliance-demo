@@ -5,25 +5,72 @@ import firm from '../config/linked-accounting.json';
 
 <BaseLayout firm={firm}>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="hero">
-    <h1>{firm.hero.headline}</h1>
-    <p>{firm.hero.subheadline}</p>
-    <a href="#" class="btn">{firm.hero.ctaText}</a>
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">{firm.hero.eyebrow}</p>
+      <h1>{firm.hero.headline}</h1>
+      <p>{firm.hero.subheadline}</p>
+      <a href="#" class="btn">{firm.hero.ctaText}</a>
+      <p class="hero-address">📍 {firm.contact.address}</p>
+    </div>
   </section>
 
-  <!-- Services Section -->
+  <!-- What We Do -->
+  <section class="what-we-do">
+    <div class="what-we-do-inner">
+      <div class="what-we-do-text">
+        <p class="eyebrow">{firm.whatWeDo.eyebrow}</p>
+        <h2>{firm.whatWeDo.headline}</h2>
+        <p>{firm.whatWeDo.body}</p>
+        <a href="#" class="btn" style="background: var(--primary); color: white;">{firm.whatWeDo.ctaText}</a>
+      </div>
+      <div class="what-we-do-image">
+        <img src={firm.whatWeDo.image} alt="Our team" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
   <section class="services">
-    <h2>What we do</h2>
-    <p class="section-sub">Services built for businesses like yours.</p>
+    <div class="services-header">
+      <p class="eyebrow">WHAT WE OFFER</p>
+      <h2>Services Built for Your Success</h2>
+      <p>From tax planning to financial advisory — we have you covered.</p>
+    </div>
     <div class="services-grid">
       {firm.services.map((service) => (
         <div class="service-card">
-          <div class="icon"></div>
           <h3>{service.title}</h3>
           <p>{service.description}</p>
         </div>
       ))}
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-text">
+        <p class="eyebrow">CONTACT US</p>
+        <h2>Connect With Our Office</h2>
+        <p style="color: var(--muted); line-height: 1.75; font-size: 0.95rem;">
+          Connect with our office via email, on the phone, or schedule a meeting with one of our advisors.
+        </p>
+        <div class="contact-details">
+          <a href={`tel:${firm.contact.phone}`}>{firm.contact.phone}</a>
+          <a href={`mailto:${firm.contact.email}`}>{firm.contact.email}</a>
+          <span>📍 {firm.contact.address}</span>
+        </div>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Email Address" />
+        <input type="tel" placeholder="Phone Number" />
+        <textarea placeholder="How can we help you?"></textarea>
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
     </div>
   </section>
 
